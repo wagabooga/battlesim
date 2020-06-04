@@ -3,7 +3,7 @@ features:
 battle simulator idea
 POKEMON MAN VS CPU
 CHARACTER CREATION - SAVE/LOAD CHARACTER CREATION VIA FILE
-classes: theif mage warrior
+classes: thief mage warrior
 
 screens:
 [battle screen / fighting]
@@ -38,7 +38,8 @@ class structure:
         ),
         lvl:int,
         exp:int,
-        inventory:list<item>
+        inventory:list<item>,
+        characterclass:str
     )
 
     item(
@@ -50,4 +51,3 @@ class structure:
         name:Str
     )
 
-    
