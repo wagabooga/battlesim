@@ -5,6 +5,14 @@ POKEMON MAN VS CPU
 CHARACTER CREATION - SAVE/LOAD CHARACTER CREATION VIA FILE
 classes: thief mage warrior
 
+dex : dodge , def
+int : ability dmg , mana
+str : auto dmg , health
+luk : crit , mdef
+
+
+
+
 screens:
 [battle screen / fighting]
 [home screen] heal, save , etc, swap characters, quit, level up abilities/stats
