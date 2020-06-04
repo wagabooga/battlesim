@@ -1,0 +1,53 @@
+features:
+
+battle simulator idea
+POKEMON MAN VS CPU
+CHARACTER CREATION - SAVE/LOAD CHARACTER CREATION VIA FILE
+classes: theif mage warrior
+
+screens:
+[battle screen / fighting]
+[home screen] heal, save , etc, swap characters, quit, level up abilities/stats
+[character creation screen] saves and reads into file
+
+code design:
+loops:
+    game run loop
+    multiple game loops
+        character creation loop
+        home screen loop
+            combat loop
+
+
+class structure:
+    player(
+        name:str,
+        attributes(
+            INT:int,
+            DEX:int,
+            STR:int,
+            LUK:int
+        ),
+        physical stats(
+            mana:int,
+            hp:int,
+            matk:int,
+            atk:int,
+            def:int,
+            mdef:int
+        ),
+        lvl:int,
+        exp:int,
+        inventory:list<item>
+    )
+
+    item(
+        type:str(
+            pots,
+            equipment,
+            enchantments
+        ),
+        name:Str
+    )
+
+    
