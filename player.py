@@ -1,8 +1,6 @@
 class Player:
-    def __init__(self, name, attributes, physical_stats, character_class):
+    def __init__(self, name, character_class):
         self.name = name
-        self.attributes = attributes
-        self.physical_stats = physical_stats
         self.character_class = character_class
         self.level = 0
         self.exp = 0
@@ -31,3 +29,6 @@ class Player:
 
         }
         return class_template
+
+    def create_physical_stats_template(self):
+        create_class_template(self)

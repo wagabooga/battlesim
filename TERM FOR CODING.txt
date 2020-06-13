@@ -1,0 +1,40 @@
+TERMINOLOGY FOR CODING
+
+FUNCTION:
+	input -> output system
+PARAMETERS:
+	one of the inputs to functions ( can have multiple parameters to a function )
+VARIABLES:
+	is a name that is assigned to a computer memory (IN RAM, which is part of a running program) location
+SCOPE:
+	the area (in a program) where a variable is visible 
+DATA TYPE:
+	the category of which data is classified
+FUNCTION/METHOD CALL:
+	when you have a function and you use it/the usage of a function or method
+CONDITION:
+	a boolean value
+COMPARISON:
+	combining two variables and an operator to check for conditions
+OPERATORS:
+	(+, -, =, /, <, >, *,not/!,==,and,or,=!,>=,<=,**(^),%) a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result.
+INTERPRETER:
+	a program that runs specific types of code (one line at a time)
+COMPILER:
+	a program that builds code into an executable file
+SOURCE CODE:
+	human written code that needs an interpreteter or compiler to run
+MACHINE CODE:
+	code thats not human-readable that the computer understands how to run( not written by humans )
+-----------------------------
+OBJECT ORIENTED TERMINOLOGY:
+-----------------------------
+
+CLASS:
+	a block of code that holds a bunch of stuff in a scope ( a blueprint, a factory; a base building block where you can put data and functions inside)
+OBJECT(INSTANCE):
+	a variable that instantiates(creates a copy of) a class
+MEMBER VARIABLE:
+	a variable in association with a class
+MEMBER FUNCTION(METHOD):
+	a function in association in a class
