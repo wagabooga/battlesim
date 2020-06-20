@@ -5,27 +5,36 @@ FUNCTION:
 PARAMETERS:
 	one of the inputs to functions ( can have multiple parameters to a function )
 VARIABLES:
-	is a name that is assigned to a computer memory (IN RAM, which is part of a running program) location
+	is a name that we assigned to a computer memory (IN RAM, which is part of a running program) location
 SCOPE:
 	the area (in a program) where a variable is visible 
 DATA TYPE:
 	the category of which data is classified
+ABSTRACT DATA TYPE:
+    a new data type defined by us that includes other data types or methods (example Player class or Item class)
 FUNCTION/METHOD CALL:
 	when you have a function and you use it/the usage of a function or method
 CONDITION:
 	a boolean value
+KEYWORDS:
+    Specific words that contains built in functionality (while, else, if, class, True, False), can not be used for anything other than their purpose.
 COMPARISON:
 	combining two variables and an operator to check for conditions
 OPERATORS:
 	(+, -, =, /, <, >, *,not/!,==,and,or,=!,>=,<=,**(^),%) a symbol that tells the compiler or interpreter to perform specific mathematical, relational or logical operation and produce final result.
 INTERPRETER:
 	a program that runs specific types of code (one line at a time)
+IDE (Integrated development environment):
+    A combination of a text editor, and an environment in which you can run code
 COMPILER:
 	a program that builds code into an executable file
 SOURCE CODE:
 	human written code that needs an interpreteter or compiler to run
 MACHINE CODE:
 	code thats not human-readable that the computer understands how to run( not written by humans )
+LOOP:
+CONTROL FLOW:
+
 -----------------------------
 OBJECT ORIENTED TERMINOLOGY:
 -----------------------------
