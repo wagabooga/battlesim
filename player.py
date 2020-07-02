@@ -5,22 +5,30 @@ class Player:
         self.level = 0
         self.exp = 0
         self.inventory = []
+        class_template = self.create_class_template()
+        attributes_dict = class_template[character_class]
+        attribute_LUK = attributes_dict["LUK"]
+        attribute_DEX = attributes_dict["DEX"]
+        attribute_STR = attributes_dict["STR"]
+        attribute_INT = attributes_dict["INT"]
+        self.attributes = [attribute_LUK, attribute_DEX, attribute_STR, attribute_INT]
+        print(self.attributes)
 
     def create_class_template(self):
         class_template = {
-            "Mage": {
+            "mage": {
                 "LUK": 2,
                 "DEX": 2,
                 "STR": 1,
                 "INT": 5,
             },
-            "Thief": {
+            "thief": {
                 "LUK": 3,
                 "DEX": 4,
                 "STR": 2,
                 "INT": 1,
             },
-            "Warrior": {
+            "warrior": {
                 "LUK": 3,
                 "DEX": 3,
                 "STR": 3,

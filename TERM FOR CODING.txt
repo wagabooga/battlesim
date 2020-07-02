@@ -29,11 +29,17 @@ IDE (Integrated development environment):
 COMPILER:
 	a program that builds code into an executable file
 SOURCE CODE:
-	human written code that needs an interpreteter or compiler to run
+	human written code that needs an interpreter or compiler to run
 MACHINE CODE:
-	code thats not human-readable that the computer understands how to run( not written by humans )
+	code that's not human-readable that the computer understands how to run( not written by humans )
 LOOP:
 CONTROL FLOW:
+INDEX:
+    a numerical representation of a position at which an item is located in a sequence
+    Values:              1, 2, 3, 4, 5,
+    Indexes or Indices:  0, 1, 2, 3, 4,
+TO INDEX:
+    to look up a value in a data structure based on a given parameter (this depends on the data structure), if its a list it will be an index(number), if its a dictionary, it will be a key(depends on dictionary).
 
 -----------------------------
 OBJECT ORIENTED TERMINOLOGY:

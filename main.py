@@ -9,8 +9,8 @@ def game_run():
             print("sorry, please type \"Mage\", \"Thief\", or \"Warrior\"")
             player_class = input("Choose your class.\n Mage, Thief, Warrior")
         print("you have selected", player_class)
-        print(player_name,player_class)
-        player = Player(player_name,1,2,3)
+        print(player_name, player_class)
+        player = Player(player_name, player_class)
         break
 
 
