@@ -40,6 +40,7 @@ INDEX:
     Indexes or Indices:  0, 1, 2, 3, 4,
 TO INDEX:
     to look up a value in a data structure based on a given parameter (this depends on the data structure), if its a list it will be an index(number), if its a dictionary, it will be a key(depends on dictionary).
+ALGORITHM:
 
 -----------------------------
 OBJECT ORIENTED TERMINOLOGY:

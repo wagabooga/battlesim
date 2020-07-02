@@ -59,3 +59,17 @@ class structure:
         name:Str
     )
 
+
+player
+create algorithm of subtracting stats and move it into code
+config number to add to stat points
+after creating player class "You have 5 player points" etc
+get player input and assign to a stat of list of internal stat (attribute_points)
+ex: types int add a point towards int
+after 0 create player
+with new values add to self.attributes in player
+->
+random enemies/ battle seq
+->
+items
+->
