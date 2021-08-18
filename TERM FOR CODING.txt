@@ -1,5 +1,10 @@
 TERMINOLOGY FOR CODING
 
+(JS)
+Objects, including instances of data types, can have properties, stored information. The properties are denoted with a . after the name of the object, for example: 'Hello'.length.
+Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: 'hello'.toUpperCase().
+
+
 FUNCTION:
 	input -> output system
 PARAMETERS:
